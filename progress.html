@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Progress</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Your Progress</h1>
+    <nav>
+        <a href="index.html">Courses</a>
+    </nav>
+</header>
+
+//progress section
+
+<section class="progress-section">
+
+    <p>HTML Course</p>
+    <div class="progress-bar">
+        <div id="html-bar"></div>
+    </div>
+    <p id="html-text">0%</p>
+
+    <p>CSS Course</p>
+    <div class="progress-bar">
+        <div id="css-bar"></div>
+    </div>
+    <p id="css-text">0%</p>
+
+    <p>JavaScript Course</p>
+    <div class="progress-bar">
+        <div id="js-bar"></div>
+    </div>
+    <p id="js-text">0%</p>
+
+    <button onclick="resetAll()">Reset All Progress</button>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
